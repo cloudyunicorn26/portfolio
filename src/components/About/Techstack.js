@@ -5,9 +5,10 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
+  DiHtml5,
+  DiCss3,
+  DiAngularSimple,
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -19,34 +20,40 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiHtml5 />
+        <p style={{ fontSize: "18px" }}>HTML</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <p style={{ fontSize: "18px" }}>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <p style={{ fontSize: "18px" }}>JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <p style={{ fontSize: "18px" }}>React JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiAngularSimple />
+        <p style={{ fontSize: "18px" }}>Angular</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiNodejs />
+        <p style={{ fontSize: "18px" }}>Node JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <p style={{ fontSize: "18px" }}>Git</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+        <p style={{ fontSize: "18px" }}>Next JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <p style={{ fontSize: "18px" }}>Firebase</p>
       </Col>
     </Row>
   );
